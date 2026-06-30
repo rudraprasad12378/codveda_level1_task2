@@ -1,0 +1,181 @@
+/* =========================
+   RESET
+========================= */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Poppins',sans-serif;
+}
+
+body{
+    background:linear-gradient(135deg,#2563eb,#4f46e5);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+/* =========================
+   FORM CONTAINER
+========================= */
+
+.container{
+    width:100%;
+    max-width:430px;
+    background:#fff;
+    padding:40px;
+    border-radius:18px;
+    box-shadow:0 20px 40px rgba(0,0,0,.25);
+}
+
+.container h2{
+    text-align:center;
+    margin-bottom:30px;
+    color:#1557e6;
+}
+
+/* =========================
+   INPUT BOX
+========================= */
+
+.input-box{
+    margin-bottom:22px;
+}
+
+.input-box label{
+    display:block;
+    margin-bottom:8px;
+    font-weight:500;
+}
+
+.input-box input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    outline:none;
+    font-size:16px;
+    transition:.3s;
+}
+
+.input-box input:focus{
+    border-color:#2563eb;
+    box-shadow:0 0 10px rgba(37,99,235,.2);
+}
+
+/* =========================
+   PASSWORD BOX
+========================= */
+
+.password-box{
+    position:relative;
+}
+
+.password-box input{
+    padding-right:45px;
+}
+
+.password-box i{
+    position:absolute;
+    right:15px;
+    top:50%;
+    transform:translateY(-50%);
+    cursor:pointer;
+    color:#777;
+}
+
+/* =========================
+   ERROR MESSAGE
+========================= */
+
+.error{
+    color:red;
+    font-size:13px;
+    margin-top:5px;
+    display:block;
+}
+
+/* =========================
+   BUTTON
+========================= */
+
+button{
+    width:100%;
+    padding:15px;
+    border:none;
+    background:#2563eb;
+    color:white;
+    border-radius:10px;
+    cursor:pointer;
+    font-size:17px;
+    transition:.3s;
+}
+
+button:hover{
+    background:#1d4ed8;
+    transform:translateY(-3px);
+}
+
+/* =========================
+   SUCCESS INPUT
+========================= */
+
+.success{
+    border:2px solid #22c55e !important;
+}
+
+/* =========================
+   ERROR INPUT
+========================= */
+
+.error-input{
+    border:2px solid #ef4444 !important;
+}
+
+/* 
+   RESPONSIVE
+ */
+
+@media(max-width:500px){
+
+.container{
+
+    width:90%;
+    padding:30px 20px;
+
+}
+
+}
+/* =========================
+   INPUT POP-UP EFFECT
+========================= */
+
+.input-box input{
+    width:100%;
+    padding:14px;
+    border:1px solid #ccc;
+    border-radius:10px;
+    outline:none;
+    font-size:16px;
+    transition:all .3s ease;
+}
+
+.input-box input:focus{
+    border-color:#2563eb;
+    box-shadow:0 10px 25px rgba(37,99,235,.25);
+    transform:translateY(-3px) scale(1.02);
+}body{
+    background:
+        linear-gradient(rgba(255,255,255,.05) 1px, transparent 1px),
+        linear-gradient(90deg, rgba(255,255,255,.05) 1px, transparent 1px),
+        linear-gradient(135deg,#2563eb,#4f46e5);
+
+    background-size:40px 40px,40px 40px,cover;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
